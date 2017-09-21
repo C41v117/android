@@ -45,10 +45,10 @@
 
     <dimen name="form_spinner_height">50dip</dimen>
 
-    <dimen name="font_size_small">12sp</dimen>
-    <dimen name="font_size_medium">14sp</dimen>
-    <dimen name="font_size_big">16sp</dimen>
-    <dimen name="font_size_header">18sp</dimen>
+    <dimen name="font_size_small">14sp</dimen>
+    <dimen name="font_size_medium">16sp</dimen>
+    <dimen name="font_size_big">18sp</dimen>
+    <dimen name="font_size_header">20sp</dimen>
     <dimen name="font_size_agent_name">26sp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>

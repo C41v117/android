@@ -56,11 +56,11 @@
     <string name="LoanCustomer_header">Detail Nasabah Loan</string>
     <string name="customer_header">Detail Nasabah Pertama</string>
     <string name="second_customer_header">Detail Nasabah Kedua</string>
-    <string name="user_name">Nama Akun</string>
-    <string name="password">Sandi</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
     <string name="phone_number">Nomor HP</string>
     <string name="pin">PIN</string>
-    <string name="button_login">Masuk</string>
+    <string name="button_login">Login</string>
     <string name="masukkan_otp">Massukkan One Time Password</string>
     <string name="otp">One Time Password</string>
     <string name="welcome_text">SELAMAT DATANG</string>

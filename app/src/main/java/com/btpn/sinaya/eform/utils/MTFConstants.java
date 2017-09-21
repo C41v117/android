@@ -20,7 +20,7 @@ public class MTFConstants {
     public static final String LOAN_HOME_ACTIVITY = "com.btpn.purna.eformloan.activity.MTFAddNewLoanHomeActivity";
     public static final String LOAN_ACTIVITY = "com.btpn.purna.eformloan.activity.MTFAddNewLoanActivity";
 
-	public static final String FONT_PATH = "RobotoCondensed-Regular.ttf";
+	public static final String FONT_PATH = "Quicksand_Book.otf";
 
 	public static final boolean autoComplete = false;
     public static final boolean UIOnly = false;
