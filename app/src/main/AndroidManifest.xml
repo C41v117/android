@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.btpn.sinaya.eform">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <!-- Network State Permissions to detect Internet status -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.example.googlemaps.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true"/>
+
+    <application
+        android:name=".MTFApplicationContext"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_btpn_orange_logo_apk"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MTFLoginActivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity
+            android:name=".activity.MTFLoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden" />-->
+        <activity
+            android:name=".custom.camera.MTFCameraActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".custom.camera.MTFCameraPreviewActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".custom.signature.MTFSignActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="stateHidden" />
+
+        <service android:name=".connection.api.listener.MTFServiceConnection" />
+
+        <service android:name=".connection.api.listener.MTFServiceScheduler" />
+
+        <receiver android:name="com.btpn.sinaya.eform.connection.api.listener.impl.MTFAlarmReceiver"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,81 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    	<item name="android:background">@color/dark_gray</item>
+    </style>
+    
+    <style name="Line_Potrait">
+        <item name="android:layout_width">2dip</item>
+        <item name="android:layout_height">match_parent</item>
+    	<item name="android:background">@color/dark_gray</item>
+    </style>
+    
+    <style name="TabLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dip</item>
+    	<item name="android:background">@drawable/indicator_tab_host_line_color_default</item>
+    </style>
+    
+    <style name="Line_gray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    	<item name="android:background">@color/light_gray</item>
+    	<item name="android:layout_marginTop">@dimen/margin_small</item>
+    	<item name="android:layout_marginBottom">@dimen/margin_small</item>
+    </style>
+
+    <style name="form_label_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.4</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
+    <style name="form_penghasilan_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+    
+    <style name="button_with_drawable_background">
+        <item name="android:paddingTop">@dimen/padding_medium</item>
+        <item name="android:paddingBottom">@dimen/padding_medium</item>
+    </style>
+    
+    <style name="edittext_with_drawable_background">
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingRight">@dimen/padding_large</item>
+        <item name="android:paddingLeft">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+    </style>
+
+    <declare-styleable name="SignaturePad">
+        <attr name="penMinWidth" format="dimension" />
+        <attr name="penMaxWidth" format="dimension" />
+        <attr name="penColor" format="color" />
+        <attr name="velocityFilterWeight" format="float" />
+        <attr name="clearOnDoubleClick" format="boolean"/>
+    </declare-styleable>
+</resources>

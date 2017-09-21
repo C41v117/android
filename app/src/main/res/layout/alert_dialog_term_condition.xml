@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:background="@color/white"
+    android:padding="@dimen/padding_medium" >
+    
+    <com.btpn.sinaya.eform.custom.view.MTFTextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:text="@string/syarat_ketentuan"
+       	android:textColor="@color/dark_gray"
+       	android:textStyle="bold"/>
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    
+	    <ScrollView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:overScrollMode="never"
+	        android:layout_alignParentTop="true"
+	        android:layout_above="@+id/alert_button_layout">
+	        
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical">
+	            
+	            <com.btpn.sinaya.eform.custom.view.MTFTextView 
+			        android:id="@+id/form_term_condition_textview"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textSize="@dimen/font_size_small"
+			        android:text="@string/term_condition"
+			        android:textColor="@color/gray"/>
+	            
+	        </LinearLayout>
+	        
+	    </ScrollView>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_alignParentBottom="true"
+	        android:id="@+id/alert_button_layout">
+	        
+	        <com.btpn.sinaya.eform.custom.view.MTFButton 
+	            android:id="@+id/alert_dialog_cancel_button"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.5"
+	            android:text="@string/button_reject"
+	            style="@style/button_with_drawable_background"
+	        	android:background="@drawable/alert_dialog_button_background"/>
+	        
+	        <com.btpn.sinaya.eform.custom.view.MTFButton 
+	            android:id="@+id/alert_dialog_accept_button"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.5"
+	            android:text="@string/button_accept"
+	            android:textColor="@color/blue"
+	            style="@style/button_with_drawable_background"
+	        	android:background="@drawable/alert_dialog_button_background"/>
+	    </LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

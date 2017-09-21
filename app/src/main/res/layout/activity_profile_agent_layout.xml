@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_custom_height"
+        android:paddingLeft="@dimen/padding_medium"
+        android:background="@color/btpn_color">
+        
+        <com.btpn.sinaya.eform.custom.view.MTFTextView 
+            android:id="@+id/title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profil_agen"
+            android:textSize="@dimen/font_size_header"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/padding_small"/>
+        
+    </RelativeLayout>
+    
+    <View style="@style/Line"/>
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:fillViewport="true"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium">
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+           
+            <com.btpn.sinaya.eform.custom.view.MTFTextView 
+                android:id="@+id/agent_name_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/profil_agen"
+                android:textSize="@dimen/font_size_big"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.4"
+	                android:gravity="left"
+	                android:text="@string/tanggal_bergabung"/>
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="right"
+                    android:id="@+id/join_date_textview"
+                    android:text="@string/dummy_reg_date"/>
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.4"
+	                android:gravity="left"
+	                android:text="@string/user_name"/>
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="right"
+                    android:id="@+id/agent_id_textview"
+                    android:text="@string/dummy_phone_number"/>
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.4"
+	                android:gravity="left"
+	                android:text="@string/total_accepted"/>
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="right"
+                    android:id="@+id/total_accepted_applicant_textview"
+                    android:text="@string/dummy_total_applicant"/>
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.4"
+	                android:gravity="left"
+	                android:text="@string/total_rejected"/>
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="right"
+                    android:id="@+id/total_rejected_applicant_textview"
+                    android:text="@string/dummy_total_applicant"/>
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.4"
+	                android:gravity="left"
+	                android:text="@string/total_applicant"/>
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="right"
+                    android:id="@+id/total_applicant_textview"
+                    android:text="@string/dummy_total_applicant"/>
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.4"
+	                android:gravity="left"
+	                android:text="@string/last_applicant"/>
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="right"
+                    android:id="@+id/last_applicant_textview"
+                    android:text="@string/dummy_total_applicant"/>
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.4"
+	                android:gravity="left"
+	                android:text="@string/approved_ratio"/>
+                
+                <com.btpn.sinaya.eform.custom.view.MTFTextView 
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="right"
+                    android:id="@+id/approved_ratio_textview"
+                    android:text="@string/dummy_total_applicant"/>
+                
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

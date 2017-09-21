@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:padding="@dimen/padding_medium" >
+    
+    <com.btpn.sinaya.eform.custom.view.MTFTextView 
+        android:id="@+id/alert_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"/>
+    
+    <com.btpn.sinaya.eform.custom.view.MTFTextView 
+        android:id="@+id/alert_info_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:textColor="@color/black"/>
+    
+    <com.btpn.sinaya.eform.custom.view.MTFButton 
+        android:id="@+id/alert_info_button_ok"
+        android:layout_width="@dimen/dialog_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_ok"
+        android:textColor="@color/blue"/>
+
+</LinearLayout>

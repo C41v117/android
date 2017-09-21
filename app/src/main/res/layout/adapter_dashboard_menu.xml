@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_small"
+    android:background="@drawable/adapter_background_default" >
+    
+    <ImageView 
+        android:id="@+id/adapter_dashboard_imageview"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/app_name"/>
+	<com.btpn.sinaya.eform.custom.view.MTFTextView 
+        android:id="@+id/adapter_dashboard_textview"
+	    android:layout_width="0dip"
+	    android:layout_weight="3"
+	    android:layout_height="match_parent"
+	    android:gravity="center_vertical"
+	    android:textColor="@color/gray"
+	    android:textStyle="bold"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/indicator_tab_host_background_default" >
+    
+	<com.btpn.sinaya.eform.custom.view.MTFTextView 
+	    android:id="@+id/indicator_tab_host_label_textview"
+	    android:layout_width="100dip"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    android:text="@string/app_name"
+	    android:gravity="center"
+	    android:paddingTop="@dimen/padding_small"
+	    android:paddingBottom="@dimen/padding_small"
+	    android:textColor="@drawable/indicator_tab_host_text_color_default"/>
+	<View style="@style/TabLine"/>
+</LinearLayout>

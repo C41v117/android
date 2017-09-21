@@ -1,0 +1,659 @@
+<resources>
+
+    <string name="app_name">e-saving</string>
+    <!-- <string name="version">3.3</string> -->
+    <!-- <string name="version">3.7</string> -->
+    <string name="version">1.0</string>
+    <string name="apkVersion">2.4.0</string>
+    <string name="value">ADBSJHJS12547896</string>
+
+    <!-- Alert -->
+    <string name="loading">Harap Tunggu&#8230;</string>
+    <string name="button_ok">OK</string>
+    <string name="button_back">Back</string>
+    <string name="button_select">Pilih</string>
+    <string name="button_cancel">Batal</string>
+    <string name="button_accept">Setuju</string>
+    <string name="button_reject">Tolak</string>
+    <string name="button_resend">Kirim Ulang</string>
+    <string name="button_edit">Edit</string>
+    <string name="syarat_ketentuan">Syarat &amp; Ketentuan</string>
+    <string name="regis_notif">Register Notifikasi</string>
+    <string name="alert_exit">Keluar dari aplikasi?</string>
+    <string name="sinkron_master_data">Sinkronisasi Master Data</string>
+    <string name="login_offline_alert">Tidak dapat terhubung ke E-Form Server. Apakah ingin memasukkan data baru secara offline?</string>
+    <string name="failed_cif_alert">Data tersimpan dan akan dikirim nanti. Apakah ingin memasukkan data baru secara offline?</string>
+    <string name="response_cif_alert">Gagal melakukan pengecekan CIF. Apakah ingin memasukkan data baru secara offline?</string>
+    <string name="send_data">Mengirim Data</string>
+    <string name="send_identity_image">Mengirim Identitas</string>
+    <string name="send_npwp_image">Mengirim NPWP</string>
+    <string name="send_signature_image">Mengirim Tanda Tangan</string>
+    <string name="send_applicant_image">Mengirim Foto Pernyataan</string>
+    <string name="send_identity_image2">Mengirim Identitas Ke 2</string>
+    <string name="send_npwp_image2">Mengirim NPWP Ke 2</string>
+    <string name="send_signature_image2">Mengirim Tanda Tangan Ke 2</string>
+    <string name="send_applicant_image2">Mengirim Foto Pernyataan Ke 2</string>
+    <string name="send_dok_pendukung_image2">Mengirim Dokumen Pendukung Ke 2</string>
+    <string name="send_dok_pendukung_image">Mengirim Dokumen Pendukung</string>
+    <string name="send_kk_image">Mengirim Kartu Keluarga</string>
+    <string name="send_selfie_image">Mengirim Foto Selfie</string>
+    <string name="confirmation">Pengiriman Data Gagal</string>
+    <string name="confirmation_send">Apakah seluruh data sudah terinput dengan benar dan Anda telah \n memahami serta menyetujui Syarat dan Ketentuan Umum Pembukaan Rekening?</string>
+    <string name="resend">Kirim Lagi</string>
+    <string name="send_later">Kirim Nanti</string>
+    <string name="proses_pengiriman">Proses Pengiriman</string>
+    <string name="alert_send_customer">Pengiriman Data Nasabah</string>
+    <string name="external">External</string>
+    <string name="internal">Internal</string>
+    <string name="alert_get_customer_detail">Pengambilan Data Nasabah</string>
+    <string name="alert_perso_card">Personalisasi Kartu</string>
+    <string name="alert_verify_card">Aktifasi Kartu</string>
+    <string name="alert_reload_customer_detail">Memuat Ulang Data Detail Nasabah</string>
+    <string name="check_if_is_tbo">Silahkan checklist box jika TBO</string>
+    <string name="alert_switch_loan">Apakah anda ingin membuka aplikasi E-Loan?</string>
+
+    <!-- label -->
+    <string name="LoanCustomer_header">Detail Nasabah Loan</string>
+    <string name="customer_header">Detail Nasabah Pertama</string>
+    <string name="second_customer_header">Detail Nasabah Kedua</string>
+    <string name="user_name">Nama Akun</string>
+    <string name="password">Sandi</string>
+    <string name="phone_number">Nomor HP</string>
+    <string name="pin">PIN</string>
+    <string name="button_login">Masuk</string>
+    <string name="masukkan_otp">Massukkan One Time Password</string>
+    <string name="otp">One Time Password</string>
+    <string name="welcome_text">SELAMAT DATANG</string>
+    <string name="registrasi">Reg:</string>
+    <string name="calon_nasabah">Calon Nasabah</string>
+    <string name="calon_nasabah_purna">Calon Nasabah Purna Bakti</string>
+    <string name="verify_account">Aktifasi Kartu</string>
+    <string name="new_loan">Loan Baru</string>
+    <string name="renewal">Renewal</string>
+    <string name="verify_loan">Verifikasi Loan</string>
+    <string name="action_code">Action Code History</string>
+    <string name="pengkinian_data">Pengkinian Data</string>
+    <string name="attachment_header">Lampiran Nasabah</string>
+    <string name="input_phone_number_title">Apakah nasabah sudah terdaftar?</string>
+    <string name="input_phone_number_message">Masukkan Nomor Handphone</string>
+    <string name="input_login">Silahkan masukkan Detail Login Anda</string>
+    <string name="kembali">Kembali</string>
+    <string name="persiapan_database">Persiapan Database</string>
+
+    <!-- Menu Dashboard -->
+    <string name="menu_calon_nasabah">CALON NASABAH</string>
+    <string name="menu_calon_nasabah_purna">CALON NASABAH PURNA BAKTI</string>
+    <string name="menu_verify">AKTIFASI KARTU</string>
+    <string name="menu_new_loan">LOAN BARU</string>
+    <string name="menu_renewal">RENEWAL</string>
+    <string name="menu_verify_loan">VERIFIKASI LOAN</string>
+    <string name="menu_profile_agen">PROFIL KU</string>
+    <string name="menu_informasi_produk">INFORMASI PRODUK</string>
+    <string name="menu_profile_btpn">PROFIL BTPN</string>
+    <string name="menu_lokasi_cabang">LOKASI CABANG</string>
+    <string name="menu_tanya_jawab">BANTUAN</string>
+    <string name="menu_logout">LOGOUT</string>
+
+    <!-- Header Label -->
+    <string name="pur_header">PROFIL KU</string>
+    <string name="pb_header">PROFIL PERSONAL BANKER</string>
+    <string name="cs_header">PROFIL CUSTOMER SERVICE</string>
+    <string name="profil_agen">Profil Agen</string>
+    <string name="Informasi_produk">Informasi Produk</string>
+    <string name="lokasi_cabang">Lokasi Cabang</string>
+    <string name="lokasi_subbranch">Lokasi Cabang Bantuan</string>
+    <string name="lokasi_area">Lokasi Area</string>
+    <string name="lokasi_region">Lokasi Region</string>
+    <string name="tanya_jawab">Tanya Jawab</string>
+    <string name="cara_pakai">Cara Pakai</string>
+    <string name="header_help">Detail Bantuan</string>
+    <string name="header_product">Detail Produk</string>
+
+    <!-- label button -->
+    <string name="simpan">Simpan</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="kirim">Kirim</string>
+    <string name="baca_syarat">Baca Syarat &amp; Ketentuan</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="tutup">Tutup</string>
+    <string name="setuju">Setuju</string>
+    <string name="activate">Aktifasi</string>
+    <string name="cancel">Batal</string>
+
+    <!-- Profile Agent Form -->
+    <string name="tanggal_bergabung">Tanggal Bergabung</string>
+    <string name="no_hp_terdaftar">No. HP Terdaftar</string>
+    <string name="user_id">User ID</string>
+    <string name="total_accepted">Total aplikasi diterima</string>
+    <string name="total_rejected">Total aplikasi ditolak</string>
+    <string name="total_applicant">Total aplikasi</string>
+    <string name="last_applicant">Aplikasi terakhir</string>
+    <string name="approved_ratio">Rasio approval</string>
+
+    <!-- Label Form -->
+    <string name="ktp">KTP</string>
+    <string name="npwp">NPWP</string>
+    <string name="tanda_tangan">Tanda Tangan</string>
+    <string name="foto_nasabah">Foto Pernyataan</string>
+    <string name="fingerprint">Sidik Jari</string>
+    <string name="alamat">Alamat</string>
+    <string name="provinsi_identity">Provinsi (Identitas) *</string>
+    <string name="provinsi_house_stay">Provinsi (Rumah) *</string>
+    <string name="provinsi_correspondent">Provinsi (Korespondensi)</string>
+    <string name="provinsi_company">Provinsi (Perusahaan)</string>
+    <string name="kota_identity">Kota (Identitas) *</string>
+    <string name="kota_house_stay">Kota (Rumah) *</string>
+    <string name="kota_correspondent">Kota (Korespondensi)</string>
+    <string name="kota_company">Kota (Perusahaan)</string>
+    <string name="kecamatan_identity">Kecamatan (Identitas) *</string>
+    <string name="kecamatan_house_stay">Kecamatan (Rumah) *</string>
+    <string name="kecamatan_correspondent">Kecamatan (Korespondensi)</string>
+    <string name="kecamatan_company">Kecamatan (Perusahaan)</string>
+    <string name="kelurahan_identity">Kelurahan (Identitas) *</string>
+    <string name="kelurahan_house_stay">Kelurahan (Rumah) *</string>
+    <string name="kelurahan_correspondent">Kelurahan (Korespondensi)</string>
+    <string name="kelurahan_company">Kelurahan (Perusahaan)</string>
+    <string name="rt_rw_identity">RT/RW (Identitas) *</string>
+    <string name="rt_rw_house_stay">RT/RW (Rumah) *</string>
+    <string name="rt_rw_correspondent">RT/RW (Korespondensi)</string>
+    <string name="rt_rw_company">RT/RW (Perusahaan)</string>
+    <string name="kode_pos_identity_mand">Kode Pos *</string>
+    <string name="kode_pos_identity">Kode Pos (Identitas)</string>
+    <string name="kode_pos_house_stay">Kode Pos (Rumah)</string>
+    <string name="kode_pos_correspondent">Kode Pos (Korespondensi)</string>
+    <string name="kode_pos_company">Kode Pos (Perusahaan)</string>
+    <string name="karyawan">Karyawan</string>
+    <string name="wiraswasta">Wiraswasta</string>
+    <string name="anda_harus_menyetujui">Anda harus menyetujui Syarat dan Ketentuan untuk BTPN WOW!</string>
+    <string name="lifetime">Seumur Hidup</string>
+    <!-- Label Profile -->
+    <string name="no_hp">No. HP*</string>
+    <string name="alamat_list">Alamat : </string>
+    <string name="no_hp_list">No. HP : </string>
+    <string name="no_rekening">No. Rekening*</string>
+    <string name="hubungan_hukum">Hubungan Hukum dengan pemilik dana</string>
+    <string name="nama_pemohon">Pemohon</string>
+    <string name="nama_pemohon_kedua">Pemohon 2</string>
+    <string name="alamat_ktp">Alamat tinggal sesuai KTP ?</string>
+    <string name="telp_rumah">Telp Rumah</string>
+    <string name="telp_lain">Telp Lain</string>
+    <string name="ibu_kandung">Ibu Kandung</string>
+    <string name="email">Email</string>
+    <string name="pendidikan">Pendidikan</string>
+
+    <!-- Label Pekerjaan -->
+    <string name="pekerjaan">Pekerjaan *</string>
+    <string name="bidang_usaha">Bidang Usaha *</string>
+    <string name="bidang_usaha_no_mand">Bidang Usaha</string>
+    <string name="fatca_mandatory">FATCA *</string>
+    <string name="fatca">FATCA</string>
+    <string name="tin">TIN</string>
+
+    <!-- Label Penghasilan -->
+    <string name="penghasilan_bersih_perbulan">Penghasilan*</string>
+    <string name="penghasilan_tambahan_perbulan">Penghasilan Tambahan Per Bulan</string>
+    <string name="perkiraan_transaksi_debih_per_tahun">Perkiraan Transaksi Debit per Tahun *</string>
+    <string name="perkiraan_transaksi_kredit_per_tahun">Perkiraan Transaksi Kredit per Tahun *</string>
+    <string name="tujuan_pembukaan_rekening">Tujuan pembukaan rekening *</string>
+    <string name="sumber_dana">Sumber Dana *</string>
+
+    <!-- Form hint -->
+    <string name="pemohon_hint">Nama Lengkap Pemohon</string>
+    <string name="pemohon_kedua_hint">Nama Lengkap Pemohon Kedua</string>
+    <string name="telp_rumah_hint">Nomor Telepon Rumah</string>
+    <string name="telp_lain_hint">Nomor Telepon Lainnya</string>
+    <string name="ibu_kandung_hint">Nama Gadis Ibu Kandung</string>
+    <string name="email_hint">Email</string>
+    <string name="alamat_hint">Alamat</string>
+    <string name="rt_hint">RT</string>
+    <string name="rw_hint">RW</string>
+    <string name="kode_pos_hint">Kode Pos</string>
+    <string name="perusahaan_hint">Nama Perusahaan</string>
+    <string name="bidang_usaha_hint">Contoh : Toko</string>
+
+    <!-- Dummy Text -->
+    <string name="no_phone_number">Nomor hp tidak ditemukan</string>
+    <string name="dummy_notification_count_text">0</string>
+    <string name="dummy_name">Untitled</string>
+    <string name="dummy_status">Verifikasi</string>
+    <string name="dummy_sync_date">7/11 23:55</string>
+    <string name="dummy_reg_date">31/12/14 23:55</string>
+    <string name="dummy_phone_number">0878xxxxxxxxxx</string>
+    <string name="dummy_total_applicant">25</string>
+    <string name="dummy_title">Title</string>
+    <string name="term_condition">3.1 Subject to the terms of this License Agreement, Google grants you a limited, worldwide, royalty-free, non-assignable and non-exclusive license to use the SDK solely to develop applications to run on the Android platform.
+	\n\n
+	3.2 You agree that Google or third parties own all legal right, title and interest in and to the SDK, including any Intellectual Property Rights that subsist in the SDK. "Intellectual Property Rights" means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
+	\n\n
+	3.3 You may not use the SDK for any purpose not expressly permitted by this License Agreement.  Except to the extent required by applicable third party licenses, you may not: (a) copy (except for backup purposes), modify, adapt, redistribute, decompile, reverse engineer, disassemble, or create derivative works of the SDK or any part of the SDK; or (b) load any part of the SDK onto a mobile handset or any other hardware device except a personal computer, combine any part of the SDK with other software, or distribute any software or device incorporating a part of the SDK.
+	\n\n
+	3.4 You agree that you will not take any actions that may cause or result in the fragmentation of Android, including but not limited to distributing, participating in the creation of, or promoting in any way a software development kit derived from the SDK.
+	\n\n
+	3.5 Use, reproduction and distribution of components of the SDK licensed under an open source software license are governed solely by the terms of that open source software license and not this License Agreement.
+	\n\n
+	3.6 You agree that the form and nature of the SDK that Google provides may change without prior notice to you and that future versions of the SDK may be incompatible with applications developed on previous versions of the SDK. You agree that Google may stop (permanently or temporarily) providing the SDK (or any features within the SDK) to you or to users generally at Google\'s sole discretion, without prior notice to you.
+	\n\n
+	3.7 Nothing in this License Agreement gives you a right to use any of Google\'s trade names, trademarks, service marks, logos, domain names, or other distinctive brand features.
+	\n\n
+	3.8 You agree that you will not remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices) that may be affixed to or contained within the SDK.\n\n</string>
+
+
+    <!-- Loan-->
+    <string name="nama_lengkap_loan">Nama Lengkap</string>
+    <string name="tanggal_lahir_loan">Tanggal Lahir</string>
+    <string name="no_pensiun_loan">No. Pensiun/Pegawai</string>
+    <string name="kode_pensiun_loan">Kode Pensiun</string>
+
+    <!-- Sinaya Form -->
+
+    <!-- CIF Form -->
+    <string name="dhib_list">DHIB List</string>
+    <string name="check_cif">Check CIF</string>
+    <string name="check_cif_failed">Gagal Check CIF</string>
+    <string name="check_acc_no_failed">Gagal Check Rekening Sumber Dana</string>
+    <string name="check_acc_no_not_found">No. Rekening Sumber Dana Tidak Ditemukan</string>
+    <string name="check_acc_no_wrong_cif">No. Rekening Sumber Dana Tidak Sesuai dengan CIF Pemohon</string>
+    <string name="ro_code_failed">Gagal Check RO Code</string>
+    <string name="product_type">Jenis Produk *</string>
+    <string name="tipe_rekening">Tipe Rekening *</string>
+    <string name="account_type">Jenis Rekening *</string>
+    <string name="applicant_name">Nama Lengkap ID *</string>
+    <string name="nama_nasabah_pur">Nama Nasabah *</string>
+    <string name="nama_pendek_nasabah">Nama Pendek Nasabah *</string>
+    <string name="second_applicant_name">Nama Lengkap ID Pemohon 2 *</string>
+    <string name="join_account_name">Nama Rekening *</string>
+    <string name="law_connection">Hubungan Hukum Dengan Pemilik Dana *</string>
+    <string name="branch_location">Lokasi Cabang *</string>
+    <string name="applicant_type">Tipe Nasabah *</string>
+    <string name="mother_name">Nama Gadis Ibu Kandung *</string>
+    <string name="cif_number">No. CIF</string>
+    <string name="acc_no_valid">No. Rekening Sudah Sesuai, Silahkan Lanjutkan Proses</string>
+    <string name="pension_fund">Kode Mitra *</string>
+    <string name="pay_office">Kantor Bayar *</string>
+    <string name="btpn_office">Kode Kantor BTPN *</string>
+    <string name="nopen">No. Pensiun *</string>
+    <string name="jenis_pensiun">Jenis Pensiun *</string>
+    <string name="ra_code">Kode RA *</string>
+
+    <!-- Identity Form -->
+    <string name="jenis_identitas">Jenis Identitas *</string>
+    <string name="no_identitas">Nomor Identitas *</string>
+    <string name="masa_berlaku">Masa Berlaku Identitas *</string>
+    <string name="jenis_kelamin">Jenis Kelamin *</string>
+    <string name="agama">Agama *</string>
+    <string name="pendidikan_terakhir">Pendidikan Terakhir *</string>
+    <string name="status_perkawinan">Status Perkawinan *</string>
+    <string name="jumlah_tanggungan">Jumlah Tanggungan *</string>
+    <string name="status_kebangsaan">Kewarganegaraan *</string>
+    <string name="status_kependudukan">Status Kependudukan *</string>
+
+
+    <!-- Profile Correspondent DropDown List -->
+    <string name="sesuai_identitas">Sesuai Kartu Identitas</string>
+    <string name="sesuai_alamat_tinggal">Sesuai Alamat Tempat Tinggal</string>
+    <string name="sesuai_alamat_kantor">Sesuai Alamat Kantor</string>
+    <string name="lainnya">Lainnya</string>
+
+    <!-- Label form -->
+    <string name="nama_lengkap_ktp">Nama Lengkap ID *</string>
+    <string name="nama_lengkap">Nama Lengkap *</string>
+    <string name="nama_alias">Nama Alias *</string>
+    <string name="gelar">Gelar</string>
+    <string name="tempat_lahir">Tempat Lahir *</string>
+    <string name="tanggal_lahir">Tanggal Lahir *</string>
+    <string name="npwp_no">No NPWP *</string>
+    <string name="telp_hp">Telp HP</string>
+    <string name="handphone_1">HandPhone 1 *</string>
+    <string name="handphone_2">HandPhone 2</string>
+    <string name="tel_rumah">Telp Rumah</string>
+    <string name="fax">Fax</string>
+    <string name="email_address">Email</string>
+    <string name="konfirmasi_alamat">Apakah alamat tinggal anda sesuai dengan KTP?</string>
+    <string name="konfirmasi_alamat_koresponden">Apakah alamat diatas merupakan alamat korespondensi anda ?</string>
+    <string name="alamat_rumah">Alamat Rumah *</string>
+    <string name="alamat_rumah_korespondent">Alamat Rumah Korespondensi</string>
+    <string name="alamat_identity">Alamat Identitas *</string>
+    <string name="country_identity">Negara (Identitas) *</string>
+    <string name="country_house_stay">Negara (Rumah) *</string>
+    <string name="country_correspondent">Negara (Korespondensi)</string>
+    <string name="country_company">Negara (Perusahaan)</string>
+    <string name="lama_menempati">Lama Menempati *</string>
+    <string name="status_tinggal">Status Tempat Tinggal *</string>
+    <string name="relatives_name">Nama Keluarga yang Bisa Dihubungi*</string>
+    <string name="relatives_phone">No. Telp Keluarga yang Bisa Dihubungi*</string>
+    <string name="relation">Hubungan*</string>
+    <string name="nama_ahli_waris">Nama Ahli Waris</string>
+    <string name="alamat_ahli_waris_1">Alamat Ahli Waris 1</string>
+    <string name="alamat_ahli_waris_2">Alamat Ahli Waris 2</string>
+    <string name="kota_ahli_waris">Kota Ahli Waris</string>
+    <string name="hubungan_ahli_waris">Hubungan Ahli Waris</string>
+
+    <!-- Job form -->
+    <string name="nama_perusahaan_no_mand">Nama Perusahaan</string>
+    <string name="nama_perusahaan">Nama Perusahaan *</string>
+    <string name="alamat_perusahaan">Alamat Perusahaan</string>
+    <string name="lama_bekerja_no_mand">Lama Bekerja</string>
+    <string name="lama_bekerja">Lama Bekerja *</string>
+    <string name="lama_bekerja_lainnya">Lama Bekerja</string>
+    <string name="tahun">Tahun</string>
+    <string name="bulan">Bulan</string>
+    <string name="jabatan">Jabatan/Posisi *</string>
+    <string name="jabatan_terakhir">Jabatan Terakhir *</string>
+    <string name="telp_kantor">Telp. Kantor</string>
+    <string name="telp_ext">Ext</string>
+    <string name="fax_kantor">Fax Kantor</string>
+    <string name="company_address">Apakah Anda Ingin Melengkapi Alamat Perusahaan</string>
+    <string name="pekerjaan_tambahan">Pekerjaan Tambahan</string>
+    <string name="status_high_risk_occupation">Status HIGH RISK Pekerjaan</string>
+    <string name="status_high_risk_business">Status HIGH RISK Bidang Usaha</string>
+    <string name="status_high_risk_country">Status HIGH RISK Negara Asal</string>
+    <string name="status_high_risk_dhib">Status HIGH RISK DHIB</string>
+    <string name="high_risk">HIGH RISK</string>
+    <string name="non_high_risk">TIDAK HIGH RISK</string>
+    <string name="golongan">Golongan *</string>
+    <string name="golongan_terakhir">Golongan Terakhir *</string>
+    <string name="golongan_terakhir_no_mand">Golongan Terakhir</string>
+    <string name="rek_1">Rekening di Bank Lain 1</string>
+    <string name="rek_2">Rekening di Bank Lain 2</string>
+    <string name="rek_3">Rekening di Bank Lain 3</string>
+
+    <!-- Aggrement form -->
+    <string name="period">Jangka Waktu(Bulan) *</string>
+    <string name="monthsValidation">(Kelipatan 6 Bulan)</string>
+    <string name="start_from">Masa Berlaku *</string>
+    <string name="period_start">Mulai dari</string>
+    <string name="period_end">Berakhir hingga</string>
+    <string name="debit_monthly">Setoran Bulanan *</string>
+    <string name="moveTo">Saat penutupan TASETO MAPAN, dana akan dikreditkan ke No.Rekening *</string>
+    <string name="act_to">Atas Nama *</string>
+    <string name="bank_name">Nama Bank/Cabang</string>
+    <string name="information">Keterangan</string>
+    <string name="sumber_aplikasi">Sumber Aplikasi *</string>
+    <string name="bersedia_mengikuti_sahabat_daya">Bersedia Mengikuti Sahabat Daya *</string>
+    <string name="bersedia_menerima_korespondensi">Bersedia Menerima Korespondensi *</string>
+    <string name="loi_label">Nasabah memiliki LOI *</string>
+    <string name="loi_period">Masa Berlaku LOI</string>
+    <string name="third_party_label">Persetujuan Terhadap Pengiriman Data/Info Nasabah ke Pihak ke Tiga *</string>
+    <string name="bersedia_mengikuti_account_statement">Bersedia Mendapatkan Account Statement </string>
+    <string name="bersedia_mendapatkan_email_notifikasi">Bersedia Mendapatkan Notifikasi SMS / Email *</string>
+    <string name="bersedia_mendapatkan_penawaran">Bersedia Menerima Penawaran Produk/Layanan Bank *</string>
+    <string name="persetujuan_pihak_ketiga">Persetujuan Terhadap Pengiriman Data/Info Nasabah ke Pihak Ketiga</string>
+    <string name="bersedia_mengikuti_account_statement_mandatory">Bersedia Mendapatkan Account Statement *</string>
+    <string name="bersedia_membuka_loan">Bersedia Melanjutkan Pembukaan Loan Baru *</string>
+    <string name="deviasi">Apakah Calon Nasabah Deviasi Sidik Jari ? *</string>
+
+    <!-- GCM -->
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+
+    <!-- PERMISSION -->
+    <string name="permission_signature_pad_error">Tidak dapat terhubung ke media penyimpanan\n Mohon cek pengaturan aplikasi</string>
+    <string name="permission_camera_error">Tidak dapat terhubung ke kamera\n Mohon cek pengaturan aplikasi</string>
+    <string name="permission_login_error">Tidak dapat melakukan login\n Mohon cek pengaturan aplikasi</string>
+    <string name="permission_start_warning">Anda belum menyetujui beberapa permission,\naplikasi mungkin tidak berjalan dengan lancar"</string>
+    <string name="permission_camera_setting">Eform memerlukan permission CAMERA dan STORAGE untuk mengambil foto. Silahkan aktifkan permission Anda melalui pengaturan aplikasi</string>
+    <string name="permission_storage_setting">Eform memerlukan permission STORAGE untuk menyimpan tanda - tangan. Silahkan aktifkan permission Anda melalui pengaturan aplikasi</string>
+    <string name="sim_exp">membaca IMEI</string>
+    <string name="picture_exp">menyimpan gambar</string>
+    <string name="camera_exp">membuka kamera</string>
+    <string name="header_permission_text">Kami perlu akses untuk </string>
+
+    <!-- Error Message -->
+    <string name="failed_to_connect">Gagal, Tidak bisa menghubungi server</string>
+    <string name="failed_to_register">Gagal Register ke Server</string>
+    <string name="invalid_token">Sesi Anda telah Berakhir. Mohon Login kembali</string>
+
+    <!-- CIF ERROR MESSAGE -->
+    <string name="applicant_error">Nama Pemohon Tidak Boleh Kosong</string>
+    <string name="nama_nasabah_error">Nama Nasabah Tidak Boleh Kosong</string>
+    <string name="nama_pendek_error">Nama Pendek Nasabah Tidak Boleh Kosong</string>
+    <string name="second_applicant_error">Nama Pemohon Kedua Tidak Boleh Kosong</string>
+    <string name="join_acc_name_error">Nama Rekening Gabungan Tidak Boleh Kosong</string>
+    <string name="phoneNumber_error">No HP Tidak Boleh Kosong</string>
+    <string name="identity_number_error">Nomor Identitas Tidak Boleh Kosong</string>
+    <string name="birthDate_error">Tanggal Lahir Tidak Boleh Kosong</string>
+    <string name="motherName_error">Nama Ibu Tidak Boleh Kosong</string>
+    <string name="product_error">Jenis Produk Harus Di Pilih</string>
+    <string name="branch_error">Lokasi Cabang Harus Di Pilih</string>
+    <string name="law_error">Hubungan Hukum Harus Di Pilih</string>
+    <string name="applicant_type_error">Tipe Nasabah Harus Di Pilih</string>
+    <string name="account_no_error">Nomor Rekening Tidak Boleh Kosong</string>
+    <string name="tipe_rekening_error">Tipe Rekening Harus Di Pilih</string>
+    <string name="kode_pensiun_error">Kode Pensiun Tidak Boleh Kosong</string>
+    <string name="kode_pensiun_invalid">Data Kode Pensiun salah</string>
+    <string name="nopen_error">No. Pensiun Tidak Boleh Kosong</string>
+    <string name="dana_error">Kode Pensiun Harus Di Pilih</string>
+    <string name="payoffice_error">Kantor Bayar Harus Di Pilih</string>
+    <string name="jenis_pensiun_error">Jenis Pensiun Harus Di Pilih</string>
+
+    <!-- IDENTITY ERROR MESSAGE -->
+    <string name="idType_error">Jenis Identitas Harus Di Pilih</string>
+    <string name="expireDate_error">Masa Berlaku Tidak Boleh Kosong</string>
+    <string name="identity_address_error">Alamat Identitas Tidak Boleh Kosong</string>
+    <string name="identity_country_error">Negara Identitas Tidak Boleh Kosong</string>
+    <string name="identity_country_invalid">Data Negara salah</string>
+    <string name="identity_province_error">Provinsi Identitas Tidak Boleh Kosong</string>
+    <string name="identity_province_invalid">Data Provinsi salah</string>
+    <string name="identity_city_error">Kota Identitas Tidak Boleh Kosong</string>
+    <string name="identity_city_invalid">Data Kota salah</string>
+    <string name="identity_district_error">Kecamatan Identitas Tidak Boleh Kosong</string>
+    <string name="identity_village_error">Kelurahan Identitas Tidak Boleh Kosong</string>
+    <string name="identity_rt_error">RT Tidak Boleh Kosong</string>
+    <string name="identity_rw_error">RW Tidak Boleh Kosong</string>
+    <string name="gender_error">Jenis Kelamin Harus Di Pilih</string>
+    <string name="religion_error">Agama Harus Di Pilih</string>
+    <string name="education_error">Pendidikan Terakhir Harus Di Pilih</string>
+    <string name="marriage_error">Status Perkawinan Harus Di Pilih</string>
+    <string name="dependents_error">Jumlah Tanggungan Tidak Boleh Kosong</string>
+    <string name="nationality_error">Kebangsaan Harus Di Pilih</string>
+    <string name="residence_error">Status Kependudukan Harus Di Pilih</string>
+    <string name="postal_error">Kode Pos Tidak Boleh Kosong</string>
+
+    <!-- PROFILE ERROR MESSAGE -->
+    <string name="applicant_type_name_error">Gelar Tidak Boleh Kosong</string>
+    <string name="identity_full_name_error">Nama Lengkap ID Tidak Boleh Kosong</string>
+    <string name="full_name_error">Nama Lengkap Tidak Boleh Kosong</string>
+    <string name="nick_name_error">Nama Alias Tidak Boleh Kosong</string>
+    <string name="birthPlace_error">Tempat Lahir Tidak Boleh Kosong</string>
+    <string name="email_invalid">Format Email Salah</string>
+    <string name="handphone_1_error">Handphone 1 Tidak Boleh Kosong</string>
+    <string name="house_address_error">Alamat Tinggal Tidak Boleh Kosong</string>
+    <string name="house_country_error">Negara Tinggal Tidak Boleh Kosong</string>
+    <string name="house_country_invalid">Data Negara salah</string>
+    <string name="house_province_error">Provinsi Tinggal Tidak Boleh Kosong</string>
+    <string name="house_province_invalid">Data Provinsi salah</string>
+    <string name="house_city_error">Kota Tinggal Tidak Boleh Kosong</string>
+    <string name="house_city_invalid">Data Kota salah</string>
+    <string name="house_district_error">Kecamatan Tinggal Tidak Boleh Kosong</string>
+    <string name="house_village_error">Kelurahan Tinggal Tidak Boleh Kosong</string>
+    <string name="house_rt_rw_error">RT / RW Tidak Boleh Kosong</string>
+    <string name="long_stay_error">Lama Menempati Tidak Boleh Kosong</string>
+    <string name="house_status_error">Status Tempat Tinggal Harus Di Pilih</string>
+    <string name="relatives_name_error">Nama Keluarga yang Bisa Dihubungi Tidak Boleh Kosong</string>
+    <string name="relatives_phone_error">No. Telp Keluarga yang Bisa Dihubungi Tidak Boleh Kosong</string>
+    <string name="gelar_error">Gelar Tidak Boleh Kosong</string>
+    <string name="email_error">Email Tidak Boleh Kosong</string>
+    <string name="handphone_error">No. Handphone Tidak Boleh Kosong</string>
+    <string name="relation_error">Hubungan Harus Di Pilih</string>
+
+    <!-- JOB ERROR MESSAGE -->
+    <string name="occupation_error">Pekerjaan Harus Di Pilih</string>
+    <string name="business_error">Bidang Usaha Harus Di Pilih</string>
+    <string name="company_name_error">Nama Perusahaan Tidak Boleh Kosong</string>
+    <string name="job_error">Jabatan Harus Di Pilih</string>
+    <string name="group_error">Golongan Harus Di Pilih</string>
+    <string name="long_of_work_error">Lama Bekerja Tidak Boleh Kosong</string>
+    <string name="other_long_of_work_error">Lama Pekerjaan Tambahan Tidak Boleh Kosong</string>
+    <string name="job_address_error">Alamat Perusahaan Tidak Boleh Kosong</string>
+    <string name="job_district_error">Kecamatan Perusahaan Tidak Boleh Kosong</string>
+    <string name="job_village_error">Kelurahan Perusahaan Tidak Boleh Kosong</string>
+    <string name="job_rt_error">RT Perusahaan Tidak Boleh Kosong</string>
+    <string name="job_rw_error">RW Perusahaan Tidak Boleh Kosong</string>
+    <string name="job_postal_code_error">Kode Pos Perusahaan Tidak Boleh Kosong</string>
+    <string name="job_country_error">Negara Perusahaan Tidak Boleh Kosong</string>
+    <string name="job_country_invalid">Data Negara salah</string>
+    <string name="job_province_error">Provinsi Perusahaan Tidak Boleh Kosong</string>
+    <string name="job_province_invalid">Data Provinsi salah</string>
+    <string name="job_city_error">Kota Perusahaan Tidak Boleh Kosong</string>
+    <string name="job_city_invalid">Data Kota salah</string>
+
+
+    <!-- INCOME ERROR MESSAGE -->
+    <string name="income_error">Penghasilan Bersih Harus Di Pilih</string>
+    <string name="debit_average_error">Transaksi Debit Rata-Rata Tidak Boleh Kosong</string>
+    <string name="credit_average_error">Transaksi Kredit Rata-Rata Tidak Boleh Kosong</string>
+    <string name="opening_goal_error">Tujuan Pembukaan Rekening Harus Di Pilih</string>
+    <string name="resource_error">Sumber Data Harus Di Pilih</string>
+    <string name="fatca_error">FATCA Harus Di Pilih</string>
+    <string name="penghasilan_error">PENGHASILAN Harus Di Pilih</string>
+    <string name="debit_error">Perkiraan Transaksi Debit per Tahun Harus Lebih Dari 1</string>
+    <string name="debit_kosong">Perkiraan Transaksi Debit per Tahun Harus Diisi</string>
+    <string name="credit_error">Perkiraan Transaksi Kredit per Tahun Harus Lebih Dari 1</string>
+    <string name="credit_kosong">Perkiraan Transaksi Kredit per Tahun Harus Diisi</string>
+    <string name="tujuan_error"> Harus Di Pilih</string>
+
+    <!-- AGREEMENT ERROR MESSAGE -->
+    <string name="period_error">Jangka Waktu Tidak Boleh Kosong</string>
+    <string name="period_error_format">Jangka Waktu Harus Kelipatan 6, Input Tanggal Masa Berlaku Kembali</string>
+    <string name="period_time_error">Masa Berlaku Tidak Boleh Kosong</string>
+    <string name="deposit_error">Setoran Bulanan Tidak Boleh Kosong</string>
+    <string name="deposit_error_value">Setoran Bulanan Harus Kelipatan Rp 100.000,-</string>
+    <string name="accountCreditTo_error">No Rekening Tujuan Pemindahan Kredit Tidak Boleh Kosong</string>
+    <string name="act_to_error">Nama Tidak Boleh Kosong</string>
+    <string name="applicant_source_error">Sumber Aplikasi Harus Dipilih</string>
+    <string name="sahabat_daya_error">Sahabat Daya Harus Dipilih</string>
+    <string name="loi_error">LOI Harus Dipilih</string>
+    <string name="loi_period_error">Masa Berlaku LOI Tidak Boleh Kosong</string>
+    <string name="third_party_error">Pihak Ketiga Harus Dipilih</string>
+    <string name="produk_layanan_error">Produk &amp; Layanan Harus Dipilih</string>
+    <string name="correspondent_error">Korespondensi Harus Dipilih</string>
+    <string name="account_statement_error">Account Statement Harus Dipilih</string>
+    <string name="notification_error">Jenis Notifikasi Harus Dipilih</string>
+    <string name="new_loan_error">Pembukaan Loan Baru Harus Dipilih</string>
+    <string name="deviasi_error">Deviasi Harus Dipilih</string>
+    <string name="agreement_error">Nasabah Harus Setuju Dengan Persyaratan Di Atas</string>
+    <string name="dok_tambahan">Dokumen Pendukung Lainnya</string>
+    <string name="selfie">Foto Selfie</string>
+    <string name="kk">Kartu Keluarga</string>
+    <string name="tbo">TBO</string>
+    <string name="bukan_npwp">Bukan Wajib Pajak</string>
+    <string name="kode_ro_purna">Kode RO*</string>
+    <string name="kode_ro">Kode RO PB*</string>
+    <string name="tgl_pendebitan">Tanggal Pendebitan*</string>
+    <string name="no_rek_sumber_dana">No Rek Sumber Dana*</string>
+    <string name="callback_time">Callback Time </string>
+    <string name="preview">Preview</string>
+    <string name="preview1">Preview Pemohon 1</string>
+    <string name="preview2">Preview Pemohon 2</string>
+    <string name="warning_taseto_mapan">Mohon maaf, Proses ini tidak dapat dilanjutkan, pastikan Anda sudah memiliki Tabungan Pasti atau Taseto Premium</string>
+    <string name="edit_jenis_produk">Silahkan Pilih Jenis Produk</string>
+    <string name="edit_no_rek">Silahkan Masukkan No Rekening Sumber Dana Anda</string>
+
+    <string name="signature_pad_desc">Tanda tangan nasabah</string>
+    <string name="clear_pad">Clear Pad</string>
+    <string name="save_signature">Save Signature</string>
+    <string name="change">Change</string>
+
+    <!-- String label untuk nasabah loan -->
+    <string name="status_nasabah">Status Nasabah *</string>
+    <string name="jenis_nasabah">Jenis Nasabah *</string>
+    <string name="no_pensiun">No.Pensiun/No.Nasabah *</string>
+    <string name="kode_penisun">Kode Pensiun *</string>
+    <string name="nama_nasabah">Nama *</string>
+    <string name="channel">Sumber Informasi/Channel *</string>
+    <string name="direct_sales">Direct Sales/SMO/RO *</string>
+    <string name="ra">RA *</string>
+    <string name="cabang">Cabang Pembukaan *</string>
+    <string name="no_cif">No. CIF *</string>
+
+    <!-- Nasabah data ERROR MESSAGE -->
+
+
+    
+    <!--String untuk komponen nasabah loan -->
+    <string name="newNasabah">Nasabah Baru</string>
+    <string name="oldNasabah">Nasabah Lama</string>
+    <string name="pegawai_aktif">Pegawai Aktif</string>
+    <string name="pensiun">Pensiun</string>
+    <string name="nama">Nama</string>
+
+    <!-- label untuk Loan Detail -->
+    <string name="jenis_program">Jenis Program *</string>
+    <string name="jenis_produk">Jenis Produk *</string>
+    <string name="jenis_pengajuan">Jenis Pengajuan *</string>
+    <string name="kode_mitra">Kode Mitra *</string>
+    <string name="jenis_asuransi">Jenis Asuransi *</string>
+    <string name="grace_period">Grace Period *</string>
+    <string name="jenis_grace">Jenis Grace Period *</string>
+    <string name="suku_bunga">Suku Bunga Maks (flat) *</string>
+    
+    <!-- label loan income -->
+    <string name="tmt">TMT Pensiun</string>
+    <string name="tht">Manfaat THT</string>
+    <string name="manfaat_pensiun">Manfaat Pensiun</string>
+    <string name="biayarutin">Biaya Rutin Rumah Tangga</string>
+    <string name="biayaangsuran">Biaya Angsuran Pihak ke 3</string>
+    <string name="pengeluaran">Pengeluaran Lainnya</string>
+    <string name="join">Join Income</string>
+
+    
+    <!-- label loan other income -->
+    <string name="penghasilan">Penghasilan Lain Nasabah</string>
+    <string name="jenis_usaha">Jenis Usaha</string>
+    <string name="mutasi_kredit">Rata-rata Mutasi Kredit</string>
+    <string name="bulan1">Bulan 1</string>
+    <string name="bulan2">Bulan 2</string>
+    <string name="bulan3">Bulan 3</string>
+    <string name="ratabulan">Rata-rata 3 Bulan</string>
+    <string name="omzettahun">Rata-rata Omzet per Tahun</string>
+    <string name="netprofit">Net Profit Margin</string>
+    <string name="sebelumpajak">Penghasilan Sebelum Pajak</string>
+    <string name="pajak">Pajak</string>
+    <string name="setelahpajak">Penghasilan Setelah Pajak</string>
+    <string name="penghasilanlain">Penghasilan lain Pasangan</string>
+    
+    <!-- label jadwal asurance -->
+    <string name="jumlah_pinajamn">Jumlah Pinjaman *</string>
+    <string name="bunga">Bunga *</string>
+    <string name="pokok_pegawai">Pokok Pegawai *</string>
+    <string name="pokok_pensiun">Pokok Pensiun *</string>
+    <string name="jangka_waktu">Jangka Waktu *</string>
+    <string name="waktu_aktif">Jangka Waktu Aktif *</string>
+    <string name="waktu_pensiun">Jangka Waktu Pensiun *</string>
+    <string name="angsur_aktif">Angsuran Aktif *</string>
+    <string name="angsur_pensiun">Angsuran Pensiun *</string>
+    <string name="iir_p">IIR Pegawai *</string>
+    <string name="iir_pen">IIR Pensiun *</string>
+    <string name="terima_bersih">Terima Bersih *</string>
+
+    <!-- label data loan asurance -->
+    <string name="exit">Keluar</string>
+    <string name="pegawai">IIR Maks Pegawai *</string>
+    <string name="iir_pensiun">IIR Maks Pensiun *</string>
+    <string name="iir_pegawai">IIR Maks Pegawai *</string>
+    <string name="premi">Pengembalian Premi Asuransi *</string>
+    <string name="potongan">Pengembalian Kelebihan Potongan *</string>
+    <string name="materal">Biaya Materal *</string>
+    <string name="mulai_pinjaman">Tanggal Mulai Pinjaman *</string>
+    <string name="laksana">Biaya Tata Laksana *</string>
+    <string name="hitung_angsuran">Jenis Perhitungan Angsuran *</string>
+
+    <string name="deviceIsRoot">Aplikasi E-Form tidak dapat digunakan pada perangkat yang memiliki root access. Silahkan hubungi Customer Service.</string>
+
+    <!-- Memo ERROR -->
+    <string name="memo_error">Memo Tidak Boleh Kosong</string>
+    <string name="check_cif_error">Anda sudah memiliki tabungan di BTPN. Apakah anda berminat membuka Loan (Pinjaman)?</string>
+    <string name="check_cif_purna_error">Anda sudah memiliki tabungan Citra Pensiun (EB) di BTPN. Apakah anda berminat membuka Loan (Pinjaman)?</string>
+    <string name="problem_message_has_account">Nasabah telah memiliki tabungan di BTPN.</string>
+
+</resources>

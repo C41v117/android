@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">5dip</dimen>
+    <dimen name="margin_medium">10dip</dimen>
+    <dimen name="margin_large">15dip</dimen>
+    <dimen name="padding_small">5dip</dimen>
+    <dimen name="padding_medium">10dip</dimen>
+    <dimen name="padding_large">15dip</dimen>
+    <dimen name="progress_bar_height">30dip</dimen>
+    <dimen name="progress_bar_width">30dip</dimen>
+    <dimen name="margin_top_tab">100dip</dimen>
+    <dimen name="loading_height">100dip</dimen>
+    <dimen name="loading_width">75dip</dimen>
+
+    <dimen name="dialog_button_width">100dip</dimen>
+    <dimen name="dialog_edittext_width">200dip</dimen>
+    <dimen name="dialog_send_data_width">200dip</dimen>
+    <dimen name="dialog_dhib_list">160dip</dimen>
+
+    <dimen name="connection_status_height">40dip</dimen>
+
+    <dimen name="scrollbar_size">25dip</dimen>
+
+    <dimen name="line">2dip</dimen>
+
+    <dimen name="login_edittext_width">275dip</dimen>
+    <dimen name="login_button_width">275dip</dimen>
+
+    <dimen name="image_preview_size">125dip</dimen>
+    <dimen name="profile_image_size">175dip</dimen>
+
+    <dimen name="image_layout_width">40dip</dimen>
+    <dimen name="image_layout_height">40dip</dimen>
+
+    <dimen name="tab_indicator_tab">90dip</dimen>
+
+    <dimen name="header_custom_width">60dip</dimen>
+    <dimen name="header_custom_height">45dip</dimen>
+    <dimen name="header_customer_custom_height">55dip</dimen>
+    <dimen name="header_form">45dip</dimen>
+    <dimen name="form_input_height">40dip</dimen>
+    <dimen name="form_input_address_hight">45dip</dimen>
+    <dimen name="form_input_area_hight">60dip</dimen>
+    <dimen name="spinner_custom_height">30dip</dimen>
+
+    <dimen name="form_spinner_height">50dip</dimen>
+
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_medium">14sp</dimen>
+    <dimen name="font_size_big">16sp</dimen>
+    <dimen name="font_size_header">18sp</dimen>
+    <dimen name="font_size_agent_name">26sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

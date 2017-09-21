@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btpn_color">#7c6a54</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF888888</color>
+    <color name="red">#FFFF0000</color>
+    <color name="blue">#FF2399ff</color>
+    <color name="orange">#FFFB632E</color>
+    <color name="lime">#FF7CE10E</color>
+    <color name="btpn_purna_color">#554f51</color>
+
+    <color name="transparent">#00FF0000</color>
+    <color name="transparent_gray">#88888888</color>
+    
+    
+    <color name="light_gray">#FFCCCCCC</color>
+    
+    <color name="dark_gray">#FF222222</color>
+	<color name="dark_orange">#FFA23E1B</color>
+</resources>

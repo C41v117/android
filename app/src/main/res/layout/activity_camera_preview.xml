@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView 
+        android:id="@+id/preview_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/header_custom_width"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher"/>
+    
+    <LinearLayout
+        android:id="@+id/agreement_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/accept_button"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/checklist" />
+
+        <ImageButton
+            android:id="@+id/reject_button"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/x_mark" />
+    </LinearLayout>
+
+</RelativeLayout>
