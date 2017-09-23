@@ -579,7 +579,7 @@
     <!-- Nasabah data ERROR MESSAGE -->
 
 
-    
+
     <!--String untuk komponen nasabah loan -->
     <string name="newNasabah">Nasabah Baru</string>
     <string name="oldNasabah">Nasabah Lama</string>
@@ -596,7 +596,7 @@
     <string name="grace_period">Grace Period *</string>
     <string name="jenis_grace">Jenis Grace Period *</string>
     <string name="suku_bunga">Suku Bunga Maks (flat) *</string>
-    
+
     <!-- label loan income -->
     <string name="tmt">TMT Pensiun</string>
     <string name="tht">Manfaat THT</string>
@@ -606,7 +606,7 @@
     <string name="pengeluaran">Pengeluaran Lainnya</string>
     <string name="join">Join Income</string>
 
-    
+
     <!-- label loan other income -->
     <string name="penghasilan">Penghasilan Lain Nasabah</string>
     <string name="jenis_usaha">Jenis Usaha</string>
@@ -621,7 +621,7 @@
     <string name="pajak">Pajak</string>
     <string name="setelahpajak">Penghasilan Setelah Pajak</string>
     <string name="penghasilanlain">Penghasilan lain Pasangan</string>
-    
+
     <!-- label jadwal asurance -->
     <string name="jumlah_pinajamn">Jumlah Pinjaman *</string>
     <string name="bunga">Bunga *</string>

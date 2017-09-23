@@ -42,17 +42,16 @@
             android:name=".activity.CLVLoginActivity"
             android:label="@string/app_name"
             android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateHidden">
+            android:windowSoftInputMode="stateHidden|adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity
-            android:name=".activity.MTFLoginActivity"
+        <activity
+            android:name=".activity.CLVSignUpActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateHidden" />-->
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".custom.camera.MTFCameraActivity"
             android:screenOrientation="landscape" />

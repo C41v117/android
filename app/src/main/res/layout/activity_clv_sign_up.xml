@@ -10,38 +10,62 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="100dip"
-            android:layout_marginBottom="@dimen/margin_small"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/brezyn_logo" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <com.btpn.sinaya.eform.custom.view.MTFEditText
-            android:id="@+id/login_username_edittext"
-            style="@style/edittext_with_drawable_background"
-            android:layout_width="@dimen/login_edittext_width"
+            <com.btpn.sinaya.eform.custom.view.MTFTextView
+                android:id="@+id/signup_username"
+                style="@style/text_with_drawable_background"
+                android:layout_width="@dimen/signup_text_width"
+                android:layout_height="@dimen/form_input_height"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:text="@string/user_name"
+                android:textSize="@dimen/font_size_medium" />
+
+            <com.btpn.sinaya.eform.custom.view.MTFEditText
+                android:id="@+id/signup_username_edittext"
+                android:layout_toRightOf="@+id/signup_username"
+                style="@style/edittext_with_drawable_background"
+                android:layout_width="@dimen/signup_edittext_width"
+                android:layout_height="@dimen/form_input_height"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:background="@drawable/edittext_invisible_background"
+                android:hint="@string/user_name"
+                android:inputType="text"
+                android:textColor="@color/dark_gray"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/font_size_medium" />
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.btpn.sinaya.eform.custom.view.MTFTextView
+            android:id="@+id/signup_password"
+            style="@style/text_with_drawable_background"
+            android:layout_width="@dimen/signup_text_width"
             android:layout_height="@dimen/form_input_height"
             android:layout_marginBottom="@dimen/margin_small"
-            android:background="@drawable/edittext_gray_background"
-            android:hint="@string/user_name"
+            android:text="@string/password"
+            android:textSize="@dimen/font_size_medium" />
+
+        <com.btpn.sinaya.eform.custom.view.MTFEditText
+            android:id="@+id/signup_password_edittext"
+            android:layout_toRightOf="@+id/signup_password"
+            style="@style/edittext_with_drawable_background"
+            android:layout_width="@dimen/signup_edittext_width"
+            android:layout_height="@dimen/form_input_height"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:background="@drawable/edittext_invisible_background"
+            android:hint="@string/password"
             android:inputType="text"
             android:textColor="@color/dark_gray"
             android:textColorHint="@color/gray"
             android:textSize="@dimen/font_size_medium" />
-
-        <com.btpn.sinaya.eform.custom.view.MTFEditText
-            android:id="@+id/login_password_edittext"
-            style="@style/edittext_with_drawable_background"
-            android:layout_width="@dimen/login_edittext_width"
-            android:layout_height="@dimen/form_input_height"
-            android:layout_marginBottom="@dimen/margin_large"
-            android:background="@drawable/edittext_gray_background"
-            android:hint="@string/password"
-            android:inputType="textPassword"
-            android:textColor="@color/dark_gray"
-            android:textColorHint="@color/gray"
-            android:textSize="@dimen/font_size_medium"/>
+    </RelativeLayout>
 
         <com.btpn.sinaya.eform.custom.view.MTFButton
             android:id="@+id/login_button"

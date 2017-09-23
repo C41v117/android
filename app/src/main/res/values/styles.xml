@@ -71,6 +71,13 @@
         <item name="android:paddingBottom">@dimen/padding_small</item>
     </style>
 
+    <style name="text_with_drawable_background">
+        <item name="android:paddingTop">@dimen/padding_medium</item>
+        <item name="android:paddingRight">@dimen/padding_large</item>
+        <item name="android:paddingLeft">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+    </style>
+
     <declare-styleable name="SignaturePad">
         <attr name="penMinWidth" format="dimension" />
         <attr name="penMaxWidth" format="dimension" />

@@ -26,6 +26,10 @@
     <dimen name="login_edittext_width">275dip</dimen>
     <dimen name="login_button_width">275dip</dimen>
 
+
+    <dimen name="signup_edittext_width">200dip</dimen>
+    <dimen name="signup_text_width">150dip</dimen>
+
     <dimen name="image_preview_size">125dip</dimen>
     <dimen name="profile_image_size">175dip</dimen>
 
