@@ -58,9 +58,11 @@
     <string name="second_customer_header">Detail Nasabah Kedua</string>
     <string name="user_name">Username</string>
     <string name="password">Password</string>
+    <string name="retype_password">Retype Password</string>
     <string name="phone_number">Nomor HP</string>
     <string name="pin">PIN</string>
     <string name="button_login">Login</string>
+    <string name="button_signup">Sign Up</string>
     <string name="masukkan_otp">Massukkan One Time Password</string>
     <string name="otp">One Time Password</string>
     <string name="welcome_text">SELAMAT DATANG</string>

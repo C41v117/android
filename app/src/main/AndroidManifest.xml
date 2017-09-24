@@ -51,7 +51,7 @@
         <activity
             android:name=".activity.CLVSignUpActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateHidden" />
+            android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
             android:name=".custom.camera.MTFCameraActivity"
             android:screenOrientation="landscape" />
