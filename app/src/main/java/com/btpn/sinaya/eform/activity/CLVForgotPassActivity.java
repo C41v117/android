@@ -7,16 +7,14 @@ import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.btpn.sinaya.eform.MTFBaseActivity;
 import com.btpn.sinaya.eform.R;
+import com.btpn.sinaya.eform.activity.controller.CLVForgotPassController;
 import com.btpn.sinaya.eform.activity.controller.CLVLoginController;
-import com.btpn.sinaya.eform.activity.controller.MTFLoginController;
 import com.btpn.sinaya.eform.utils.MTFConstants;
 import com.btpn.sinaya.eform.utils.MTFPermissionUtil;
 
@@ -24,13 +22,11 @@ import com.btpn.sinaya.eform.utils.MTFPermissionUtil;
  * Created by vaniawidjaja on 9/21/17.
  */
 
-public class CLVLoginActivity extends MTFBaseActivity {
+public class CLVForgotPassActivity extends MTFBaseActivity {
     private EditText userNameEditText;
-    private EditText passwordEditText;
     private Button loginButton;
-    private TextView signUpTextView;
-    private TextView forgotTextView;
-    private CLVLoginController controller;
+    private Button sendButton;
+    private CLVForgotPassController controller;
 
     private TextWatcher mTextWatcher = new TextWatcher() {
         @Override
@@ -51,21 +47,20 @@ public class CLVLoginActivity extends MTFBaseActivity {
     void checkFieldsForEmptyValues(){
 
         String s1 = userNameEditText.getText().toString();
-        String s2 = passwordEditText.getText().toString();
 
-        if(s1.equals("")|| s2.equals("")){
-            loginButton.setEnabled(false);
-            loginButton.setBackground(getDrawable(R.drawable.button_gray_background));
+        if(s1.equals("")){
+            sendButton.setEnabled(false);
+            sendButton.setBackground(getDrawable(R.drawable.button_gray_background));
         } else {
-            loginButton.setEnabled(true);
-            loginButton.setBackground(getDrawable(R.drawable.button_orange_background));
+            sendButton.setEnabled(true);
+            sendButton.setBackground(getDrawable(R.drawable.button_orange_background));
         }
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clv_login);
+        setContentView(R.layout.activity_clv_forgotpass);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         loadView();
@@ -75,19 +70,15 @@ public class CLVLoginActivity extends MTFBaseActivity {
 
     private void loadView() {
         userNameEditText = (EditText) findViewById(R.id.login_username_edittext);
-        passwordEditText = (EditText) findViewById(R.id.login_password_edittext);
         loginButton = (Button) findViewById(R.id.login_button);
-        signUpTextView = (TextView) findViewById(R.id.signUpTV);
-        forgotTextView = (TextView) findViewById(R.id.forgot_pass);
+        sendButton= (Button) findViewById(R.id.send_button);
     }
 
     private void initiateDefaultValue() {
-        controller = new CLVLoginController(this);
+        controller = new CLVForgotPassController(this);
         loginButton.setOnClickListener(controller);
-        signUpTextView.setOnClickListener(controller);
-        forgotTextView.setOnClickListener(controller);
+        sendButton.setOnClickListener(controller);
         userNameEditText.addTextChangedListener(mTextWatcher);
-        passwordEditText.addTextChangedListener(mTextWatcher);
         checkFieldsForEmptyValues();
     }
 
@@ -96,7 +87,7 @@ public class CLVLoginActivity extends MTFBaseActivity {
         int permissionCheck = ContextCompat.checkSelfPermission(this,
                 Manifest.permission.READ_PHONE_STATE);
         if (permissionCheck == PackageManager.PERMISSION_GRANTED) {
-            controller.submitLogin();
+//            controller.submitLogin();
         } else {
             MTFPermissionUtil.requestPermission(this, Manifest.permission.READ_PHONE_STATE, MTFConstants.MTF_PERMISSION_REQUEST_LOGIN,
                     "Aplikasi E-Form membutuhkan permission 'PHONE' untuk membaca IMEI");

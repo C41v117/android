@@ -57,12 +57,16 @@
     <string name="customer_header">Detail Nasabah Pertama</string>
     <string name="second_customer_header">Detail Nasabah Kedua</string>
     <string name="user_name">Username</string>
+    <string name="username_login">Username or Email</string>
     <string name="password">Password</string>
     <string name="retype_password">Retype Password</string>
     <string name="phone_number">Nomor HP</string>
     <string name="pin">PIN</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="find_account">FIND YOUR ACCOUNT</string>
     <string name="button_login">Login</string>
     <string name="button_signup">Sign Up</string>
+    <string name="button_send">Send</string>
     <string name="masukkan_otp">Massukkan One Time Password</string>
     <string name="otp">One Time Password</string>
     <string name="welcome_text">SELAMAT DATANG</string>
@@ -81,6 +85,7 @@
     <string name="input_login">Silahkan masukkan Detail Login Anda</string>
     <string name="kembali">Kembali</string>
     <string name="persiapan_database">Persiapan Database</string>
+    <string name="forgotpass_text">Enter your username or the email address associated with your account.</string>
 
     <!-- Menu Dashboard -->
     <string name="menu_calon_nasabah">CALON NASABAH</string>
