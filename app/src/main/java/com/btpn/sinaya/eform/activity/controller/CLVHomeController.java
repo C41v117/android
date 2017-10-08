@@ -1,48 +1,33 @@
 package com.btpn.sinaya.eform.activity.controller;
 
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.os.AsyncTask;
 import android.os.Build;
-import android.os.Bundle;
-import android.provider.Settings;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.LocalBroadcastManager;
 import android.telephony.TelephonyManager;
 import android.view.KeyEvent;
 import android.view.View;
 
-import com.btpn.sinaya.eform.MTFApplicationContext;
 import com.btpn.sinaya.eform.R;
 import com.btpn.sinaya.eform.activity.CLVForgotPassActivity;
 import com.btpn.sinaya.eform.activity.CLVHomeActivity;
 import com.btpn.sinaya.eform.activity.CLVLoginActivity;
+import com.btpn.sinaya.eform.activity.CLVSearchActivity;
 import com.btpn.sinaya.eform.activity.CLVSignUpActivity;
-import com.btpn.sinaya.eform.activity.MTFLoginActivity;
 import com.btpn.sinaya.eform.alert.listener.MTFRootedAlertDialogListener;
-import com.btpn.sinaya.eform.connection.MTFSMPUtilities;
 import com.btpn.sinaya.eform.connection.MTFSchedulerManager;
 import com.btpn.sinaya.eform.connection.api.listener.MTFServiceConnection;
 import com.btpn.sinaya.eform.database.MTFDatabaseHelper;
-import com.btpn.sinaya.eform.model.MTFLoginModel;
-import com.btpn.sinaya.eform.model.MTFProfileModel;
 import com.btpn.sinaya.eform.model.MTFUserModel;
-import com.btpn.sinaya.eform.utils.MTFConstants;
 import com.btpn.sinaya.eform.utils.MTFIntentConstant;
 import com.btpn.sinaya.eform.utils.MTFSystemParams;
-import com.google.gson.Gson;
-
-import java.util.Date;
 
 /**
  * Created by vaniawidjaja on 9/23/17.
  */
 
-public class CLVLoginController implements View.OnClickListener, View.OnKeyListener {
+public class CLVHomeController implements View.OnClickListener, View.OnKeyListener {
     private int codeFailed;
-    private CLVLoginActivity activity;
+    private CLVHomeActivity activity;
 
 //    private BroadcastReceiver localBroadCastReceiver = new BroadcastReceiver() {
 //
@@ -134,7 +119,7 @@ public class CLVLoginController implements View.OnClickListener, View.OnKeyListe
     private MTFUserModel userModel;
     private MTFDatabaseHelper database;
 
-    public CLVLoginController(CLVLoginActivity activity) {
+    public CLVHomeController(CLVHomeActivity activity) {
         this.activity = activity;
         this.database = new MTFDatabaseHelper(activity);
         this.codeFailed = activity.getIntent().getIntExtra(MTFIntentConstant.INTENT_EXTRA_CODE, MTFIntentConstant.CODE_FAILED);
@@ -176,14 +161,14 @@ public class CLVLoginController implements View.OnClickListener, View.OnKeyListe
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.login_button:
+            case R.id.icSearch:
 //                if(MTFConstants.UIOnly)
 //                    this.loginUIOnly();
 //                else{
 //                    activity.loginWithPermission();
 //                }
 
-                startHomeActivity();
+                startSearchActivity();
 
                 break;
             case R.id.signUpTV:
@@ -210,9 +195,9 @@ public class CLVLoginController implements View.OnClickListener, View.OnKeyListe
         }
     }
 
-    private void startHomeActivity() {
+    private void startSearchActivity() {
 
-        Intent intentHome = new Intent(activity, CLVHomeActivity.class);
+        Intent intentHome = new Intent(activity, CLVSearchActivity.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         activity.startActivity(intentHome);
     }
 

@@ -57,6 +57,14 @@
             android:configChanges="orientation|keyboardHidden"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
+            android:name=".activity.CLVHomeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.CLVSearchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
             android:name=".custom.camera.MTFCameraActivity"
             android:screenOrientation="landscape" />
         <activity

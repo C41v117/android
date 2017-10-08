@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="3"
+            android:text="@string/home"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size_big"
+            android:gravity="center_vertical"
+            />
+
+        <ImageView
+            android:id="@+id/icFriend"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/friendsport_bc"/>
+
+
+        <ImageView
+            android:id="@+id/icMsg"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/message_bc"/>
+
+        <ImageView
+            android:id="@+id/icUpload"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/upload_bc"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_below="@+id/llTop"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/gray"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_below="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_above="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/gray"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/icHome"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_ac"/>
+
+        <ImageView
+            android:id="@+id/icSearch"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search_bc"/>
+
+        <ImageView
+            android:id="@+id/icFeed"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/feeds_bc"/>
+
+        <ImageView
+            android:id="@+id/icNotif"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notification_bc"/>
+
+        <ImageView
+            android:id="@+id/icProfile"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_bc"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

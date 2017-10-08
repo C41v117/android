@@ -86,6 +86,8 @@
     <string name="kembali">Kembali</string>
     <string name="persiapan_database">Persiapan Database</string>
     <string name="forgotpass_text">Enter your username or the email address associated with your account.</string>
+    <string name="home">HOME</string>
+    <string name="search">SEARCH</string>
 
     <!-- Menu Dashboard -->
     <string name="menu_calon_nasabah">CALON NASABAH</string>
