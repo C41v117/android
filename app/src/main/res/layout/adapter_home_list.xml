@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_small"
+    android:paddingRight="@dimen/padding_small"
+    android:paddingBottom="@dimen/padding_medium"
+    android:background="@color/light_gray">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/home_list_img"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/brezyn_icons"
+            android:background="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_medium">
+
+            <com.btpn.sinaya.eform.custom.view.CLVImageRoundedView
+                android:id="@+id/profile_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/brezyn_icons"
+                android:layout_marginRight="@dimen/margin_small"/>
+
+            <com.btpn.sinaya.eform.custom.view.MTFTextView
+                android:id="@+id/customer_list_nama_textview"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.01"
+                android:ellipsize="none"
+                android:text="@string/dummy_name"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/love_iv"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/brezyn_icons"/>
+
+            <com.btpn.sinaya.eform.custom.view.MTFTextView
+                android:id="@+id/customer_list_love_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_xsmall"
+                android:text="@string/dummy_love"
+                android:layout_marginRight="@dimen/margin_medium"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin_small">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:adjustViewBounds="true"/>
+
+            <com.btpn.sinaya.eform.custom.view.MTFTextView
+                android:id="@+id/home_location"
+                android:textSize="@dimen/font_size_xsmall"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:ellipsize="none"
+                android:text="@string/dummy_location"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:adjustViewBounds="true"/>
+
+            <com.btpn.sinaya.eform.custom.view.MTFTextView
+                android:id="@+id/home_caption"
+                style="@android:style/TextAppearance.Small"
+                android:textSize="@dimen/font_size_small"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="none"
+                android:maxLines="3"
+                android:text="@string/dummy_caption" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_small">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:adjustViewBounds="true"/>
+
+            <com.btpn.sinaya.eform.custom.view.MTFTextView
+                android:id="@+id/home_date_caption"
+                android:textSize="@dimen/font_size_xxsmall"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:ellipsize="none"
+                android:textAllCaps="true"
+                android:text="@string/dummy_date_caption" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

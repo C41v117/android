@@ -185,7 +185,6 @@ public class CLVHomeController implements View.OnClickListener, View.OnKeyListen
 //                if(MTFConstants.UIOnly)
 //                    this.loginUIOnly();
 //                else{
-                startForgotPassActivity();
 //                }
 
                 break;
@@ -199,13 +198,9 @@ public class CLVHomeController implements View.OnClickListener, View.OnKeyListen
 
         Intent intentHome = new Intent(activity, CLVSearchActivity.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         activity.startActivity(intentHome);
+        activity.finish();
     }
 
-    private void startForgotPassActivity() {
-
-        Intent intentSignUp = new Intent(activity, CLVForgotPassActivity.class);
-        activity.startActivity(intentSignUp);
-    }
 
     public void submitLogin(){
 //        String agentId = activity.getUserNameEditText().getText().toString().trim().toUpperCase();

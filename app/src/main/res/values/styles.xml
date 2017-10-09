@@ -86,4 +86,7 @@
         <attr name="clearOnDoubleClick" format="boolean"/>
     </declare-styleable>
 
+    <style name="rounded_image">
+        <item name="android:radius">100dp</item>
+    </style>
 </resources>

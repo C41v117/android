@@ -49,6 +49,7 @@
 
     <dimen name="form_spinner_height">50dip</dimen>
 
+    <dimen name="font_size_xxsmall">8sp</dimen>
     <dimen name="font_size_xsmall">12sp</dimen>
     <dimen name="font_size_small">14sp</dimen>
     <dimen name="font_size_medium">16sp</dimen>

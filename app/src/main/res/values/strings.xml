@@ -224,8 +224,12 @@
     <!-- Dummy Text -->
     <string name="no_phone_number">Nomor hp tidak ditemukan</string>
     <string name="dummy_notification_count_text">0</string>
-    <string name="dummy_name">Untitled</string>
-    <string name="dummy_status">Verifikasi</string>
+    <string name="dummy_name">Username__max_20char</string>
+    <string name="dummy_name_caption">Username_caption___20</string>
+    <string name="dummy_date_caption">an Hour ago.</string>
+    <string name="dummy_location">at The Singapore Flyer</string>
+    <string name="dummy_caption">this is a caption. this is a caption. this is a caption.this is a caption. this is a caption. this is a caption.this is a caption. this is a caption. this is a caption.</string>
+    <string name="dummy_love">2,295</string>
     <string name="dummy_sync_date">7/11 23:55</string>
     <string name="dummy_reg_date">31/12/14 23:55</string>
     <string name="dummy_phone_number">0878xxxxxxxxxx</string>

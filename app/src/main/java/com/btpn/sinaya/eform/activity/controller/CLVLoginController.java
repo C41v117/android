@@ -214,12 +214,14 @@ public class CLVLoginController implements View.OnClickListener, View.OnKeyListe
 
         Intent intentHome = new Intent(activity, CLVHomeActivity.class);
         activity.startActivity(intentHome);
+        activity.finish();
     }
 
     private void startForgotPassActivity() {
 
         Intent intentSignUp = new Intent(activity, CLVForgotPassActivity.class);
         activity.startActivity(intentSignUp);
+        activity.finish();
     }
 
     public void submitLogin(){
